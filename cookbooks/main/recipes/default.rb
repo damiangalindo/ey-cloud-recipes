@@ -5,7 +5,7 @@
 #end
 
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
-# require_recipe "sphinx"
+require_recipe "sphinx"
 
 #uncomment to turn on memcached
 # require_recipe "memcached"
@@ -31,7 +31,7 @@
 #end
 
 #uncomment to run the resque recipe
-#require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run the redis recipe
 require_recipe "redis"
@@ -54,4 +54,4 @@ require_recipe "redis"
 # additional configuration of this recipe is required
 #require_recipe "mysql_administrative_tools"
 
-require_recipe "elasticsearch::non_util"
+# require_recipe "elasticsearch::non_util"
