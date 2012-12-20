@@ -24,11 +24,11 @@
 #   action :install
 # end
 
-enable_package "dev-libs/wkhtmltopdf" do
-	version "0.11.0"
+enable_package "app-misc/wkhtmltopdf-bin" do
+    version "0.10.0_beta5"
 end
 
-package "dev-libs/wkhtmltopdf" do
-	version "0.11.0"
-	action :install
+package "app-misc/wkhtmltopdf-bin" do
+    version "0.10.0_beta5"
+    action :install
 end
